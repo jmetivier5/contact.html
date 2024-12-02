@@ -1,212 +1,211 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
-   <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <title>Joshua Metivier's Portfolio</title>
-   <style>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Joshua Metivier's Portfolio</title>
+    <style>
       body {
-         background-color: #4D4D4D;
-         font-family: 'JetBrains Mono', monospace;
-         margin: 0;
-         padding: 0;
+        background-color: #4D4D4D;
+        font-family: 'JetBrains Mono', monospace;
+        margin: 0;
+        padding: 0;
       }
 
       header {
-         background-color: #000;
-         text-align: center;
-         padding: 10px 0;
+        background-color: #000;
+        text-align: center;
+        padding: 10px 0;
       }
 
       footer {
-         background-color: #C09CCC;
-         text-align: center;
-         padding: 10px 0px 25px 0px;
+        background-color: #C09CCC;
+        text-align: center;
+        padding: 10px 0px 25px 0px;
         height: 40px;
       }
 
       .center {
-         display: block;
-         margin: 0 auto;
-         width: 80%;
-         max-width: 600px;
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+        max-width: 600px;
       }
 
       .navbar {
-         display: flex;
-         justify-content: center;
-         background-color: #000000;
-         padding: 10px 0;
+        display: flex;
+        justify-content: center;
+        background-color: #000000;
+        padding: 10px 0;
       }
 
       .navbar a {
-         color: white;
-         text-decoration: none;
-         padding: 14px 20px;
-         font-family: 'JetBrains Mono', monospace;
-         font-size: 0.7rem;
-         text-transform: uppercase;
+        color: white;
+        text-decoration: none;
+        padding: 14px 20px;
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 0.9rem;
+        text-transform: uppercase;
       }
 
       .navbar a:hover {
-         background-color: #575757;
-         color: yellow;
+        background-color: #575757;
+        color: yellow;
       }
 
       .JM {
-         display: block;
-         margin: 0 auto;
-         width: 80%;
-         max-width: 200px;
-         padding: 150px 0px 150px 0px;
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+        max-width: 200px;
+        padding: 150px 0px 150px 0px;
       }
 
       .icon-section {
-         display: flex;
-         align-items: center; /* Align icon and text vertically */
-         gap: 10px; /* Space between icon and text */
-         margin-bottom: 20px; /* Space between sections */
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 20px;
       }
 
       .icon-section img {
-         width: 30px; /* Icon size */
-         height: auto;
+        width: 30px;
+        height: auto;
       }
 
       h1 {
-         padding: 50px 0px 0px 50px;
-         color: white;
+        padding: 50px 0px 0px 50px;
+        color: white;
       }
 
       h2 {
-         padding: 0px 0px 0px 0px;
-         color: white;
+        padding: 0px 0px 0px 0px;
+        color: white;
       }
 
       p {
-         padding: 0px 100px 50px 50px;
-         color: white;
+        padding: 0px 100px 50px 50px;
+        color: white;
       }
-     ul {
-       padding: 0px;
-         color: white;
-     }
+
+      ul {
+        padding: 0px;
+        color: white;
+      }
 
       @media screen and (min-width: 600px) {
-         section {
-            flex-wrap: nowrap;
-         }
+        section {
+          flex-wrap: nowrap;
+        }
 
-         nav {
-            flex: 1 1 50%;
-         }
+        nav {
+          flex: 1 1 50%;
+        }
 
-         article {
-            flex: 1 1 50%;
-         }
+        article {
+          flex: 1 1 50%;
+        }
 
-         h1 {
-            font-size: 2.5rem;
-         }
+        h1 {
+          font-size: 2.5rem;
+        }
 
-         h2 {
-            font-size: 1.8rem;
-         }
+        h2 {
+          font-size: 1.8rem;
+        }
 
-         p {
-            font-size: 1.2rem;
-         }
+        p {
+          font-size: 1.2rem;
+        }
 
-         .txt {
-            font-size: 1.7rem;
-         }
+        .txt {
+          font-size: 1.7rem;
+        }
 
-         div {
-            padding: 0px 0px 0px 50px;
-         }
+        div {
+          padding: 0px 0px 0px 50px;
+        }
       }
 
       @media screen and (max-width: 600px) {
-         article img {
-            max-height: 200px; /* Limit height for smaller screens */
-            width: auto;
-         }
+        article img {
+          max-height: 200px;
+          width: auto;
+        }
 
-         h1 {
-            font-size: 1.5rem;
-         }
+        h1 {
+          font-size: 1.5rem;
+        }
 
-         h2 {
-            font-size: 1.2rem;
-         }
+        h2 {
+          font-size: 1.2rem;
+        }
 
-         p {
-            font-size: 0.9rem;
-         }
+        p {
+          font-size: 0.9rem;
+        }
 
-         .center {
-            width: 100%;
-         }
+        .center {
+          width: 100%;
+        }
 
-         .txt {
-            font-size: 1.2rem;
-         }
+        .txt {
+          font-size: 1.2rem;
+        }
 
-         div {
-            padding: 0px 0px 0px 50px;
-         }
+        div {
+          padding: 0px 0px 0px 50px;
+        }
       }
-   </style>
-</head>
+    </style>
+  </head>
 
-<body>
-   <header>
+  <body>
+    <header>
       <img src="site banner.jpg" alt="Site Banner" class="center">
-   </header>
+    </header>
 
-<nav class="navbar">
-   <a href="Metivier_Joshua_a3">Index</a>
-   <a href="projects.html">Projects</a>
-   <a href="about.html">About</a>
-   <a href="contact.html">Contact</a>
-</nav>
+    <nav class="navbar">
+      <a href="Metivier_Joshua_a3">Index</a>
+      <a href="projects.html">Projects</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
 
-   <main>
+    <main>
       <section>
-         <nav>
-            <h1>Contact Info</h1>
-            <p>If you have any questions, comments, or concerns, don’t hesitate to send me an email or check out my
-               LinkedIn profile below!</p>
+        <nav>
+          <h1>Contact Info</h1>
+          <p>If you have any questions, comments, or concerns, don’t hesitate to send me an email or check out my
+            LinkedIn profile below!</p>
 
-            <!-- Email Section -->
-            <div class="icon-section">
-               <img src="Mail.svg" alt="Email Icon">
-               <div>
-                  <h2>Email</h2>
-                  <ul>j2metivi@uwaterloo.ca</ul>
-               </div>
+          <div class="icon-section">
+            <img src="Mail.svg" alt="Email Icon">
+            <div>
+              <h2>Email</h2>
+              <ul>j2metivi@uwaterloo.ca</ul>
             </div>
+          </div>
 
-            <!-- LinkedIn Section -->
-            <div class="icon-section">
-               <img src="Linkedin.svg" alt="LinkedIn Icon">
-               <div>
-                  <h2>LinkedIn</h2>
-                  <ul>Joshua Metivier</ul>
-               </div>
+          <div class="icon-section">
+            <img src="Linkedin.svg" alt="LinkedIn Icon">
+            <div>
+              <h2>LinkedIn</h2>
+              <ul>Joshua Metivier</ul>
             </div>
-         </nav>
+          </div>
+        </nav>
 
-         <article>
-            <img src="Artboard 6.svg" alt="JM" class="JM">
-         </article>
+        <article>
+          <img src="Artboard 6.svg" alt="JM" class="JM">
+        </article>
       </section>
-   </main>
+    </main>
 
-   <footer>
+    <footer>
       <p>&copy; 2024 Joshua Metivier</p>
-   </footer>
-</body>
+    </footer>
+  </body>
 
 </html>
