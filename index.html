@@ -22,7 +22,8 @@
       footer {
          background-color: #C09CCC;
          text-align: center;
-         padding: 10px 0;
+         padding: 10px 0px 25px 0px;
+        height: 40px;
       }
 
       .center {
@@ -52,20 +53,44 @@
          background-color: #575757;
          color: yellow;
       }
-     .JM {
+
+      .JM {
          display: block;
          margin: 0 auto;
          width: 80%;
          max-width: 200px;
-       padding: 150px 0px 150px 0px;
-     }
-     h1 {
-       padding: 50px 0px 0px 50px;
-       color: white;
-     }
-     p {
-       padding: 0px 100px 50px 50px;
-       color: white;
+         padding: 150px 0px 150px 0px;
+      }
+
+      .icon-section {
+         display: flex;
+         align-items: center; /* Align icon and text vertically */
+         gap: 10px; /* Space between icon and text */
+         margin-bottom: 20px; /* Space between sections */
+      }
+
+      .icon-section img {
+         width: 30px; /* Icon size */
+         height: auto;
+      }
+
+      h1 {
+         padding: 50px 0px 0px 50px;
+         color: white;
+      }
+
+      h2 {
+         padding: 0px 0px 0px 0px;
+         color: white;
+      }
+
+      p {
+         padding: 0px 100px 50px 50px;
+         color: white;
+      }
+     ul {
+       padding: 0px;
+         color: white;
      }
 
       @media screen and (min-width: 600px) {
@@ -85,6 +110,10 @@
             font-size: 2.5rem;
          }
 
+         h2 {
+            font-size: 1.8rem;
+         }
+
          p {
             font-size: 1.2rem;
          }
@@ -94,7 +123,7 @@
          }
 
          div {
-            padding: 150px;
+            padding: 0px 0px 0px 50px;
          }
       }
 
@@ -106,6 +135,10 @@
 
          h1 {
             font-size: 1.5rem;
+         }
+
+         h2 {
+            font-size: 1.2rem;
          }
 
          p {
@@ -121,10 +154,9 @@
          }
 
          div {
-            padding: 75px;
+            padding: 0px 0px 0px 50px;
          }
       }
-
    </style>
 </head>
 
@@ -143,16 +175,32 @@
    <main>
       <section>
          <nav>
-           <h1>
-             Contact <br>Info
-           </h1>
-<p>
-  If you have any questions, comments or concerns, don’t hesitate to send me an email or check out my Linkedin profile below!
-           </p>
+            <h1>Contact Info</h1>
+            <p>If you have any questions, comments, or concerns, don’t hesitate to send me an email or check out my
+               LinkedIn profile below!</p>
+
+            <!-- Email Section -->
+            <div class="icon-section">
+               <img src="Mail.svg" alt="Email Icon">
+               <div>
+                  <h2>Email</h2>
+                  <ul>j2metivi@uwaterloo.ca</ul>
+               </div>
+            </div>
+
+            <!-- LinkedIn Section -->
+            <div class="icon-section">
+               <img src="Linkedin.svg" alt="LinkedIn Icon">
+               <div>
+                  <h2>LinkedIn</h2>
+                  <ul>Joshua Metivier</ul>
+               </div>
+            </div>
+         </nav>
+
          <article>
             <img src="Artboard 6.svg" alt="JM" class="JM">
          </article>
-        </nav>
       </section>
    </main>
 
